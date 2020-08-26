@@ -1,0 +1,60 @@
+{
+  "name": "@tiger/doc",
+  "version": "1.0.20-alpha.0",
+  "description": "a doc for component",
+  "keywords": [
+    "doc"
+  ],
+  "author": "kingv <vivewang@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib",
+    "site"
+  ],
+  "types": "lib/index.d.ts",
+  "buildOptions": {
+    "extractDts": true
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "http://192.172.9.139/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.hucais.com/hucais-frontend/hc-tiger.git"
+  },
+  "scripts": {
+    "dev": "tsc --watch",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "peerDependencies": {
+    "vue": "^2.6.11",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "dependencies": {
+    "@tiger/md-loader": "^1.0.11-alpha.0",
+    "@tiger/service": "^1.0.7-alpha.0",
+    "@vue/composition-api": "^0.5.0",
+    "docsearch.js": "^2.6.3",
+    "fs-extra": "^9.0.0",
+    "glob": "^7.1.6",
+    "html-webpack-plugin": "^4.3.0",
+    "typescript": "^3.9.3",
+    "vue": "^2.6.11",
+    "vue-loader": "^15.9.2",
+    "vue-router": "^3.3.1",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.43.0"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.1",
+    "@types/glob": "^7.1.1"
+  },
+  "gitHead": "24ff254cf1db6c57eedc8075e1f25f78eda8de54"
+}

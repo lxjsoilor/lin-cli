@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "incremental": true,
+        "tsBuildInfoFile": "./buildFile",
+        "diagnostics": true, 
+        "baseUrl": ".",
+        "sourceMap": false,
+        "target": "es5",
+        "module": "es2015",
+        "allowJs": false,
+        "noUnusedLocals": true,
+        "noImplicitAny": true,
+        "experimentalDecorators": true,
+        "skipLibCheck": true,
+            "allowSyntheticDefaultImports": true,
+        "strictNullChecks": true,
+        "removeComments": false,
+        "moduleResolution": "node",
+        "declaration": true,
+        "jsx": "preserve",
+        "lib": [
+        "esnext",
+        "es2018",
+        "dom"
+        ],
+        "rootDir": ".",
+    },
+    "include": ["src/**/*"],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}

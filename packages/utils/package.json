@@ -1,0 +1,43 @@
+{
+  "name": "@tiger/utils",
+  "version": "1.0.7-alpha.0",
+  "description": "shared utilities for cli packages",
+  "keywords": [
+    "utils"
+  ],
+  "author": "kingv <vivewang@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "http://192.172.9.139/"
+  },
+  "types": "lib/index.d.ts",
+  "buildOptions": {
+    "extractDts": true
+  },
+  "scripts": {
+    "dev": "tsc --watch",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "gitHead": "24ff254cf1db6c57eedc8075e1f25f78eda8de54",
+  "dependencies": {
+    "address": "^1.1.2",
+    "chalk": "^4.0.0",
+    "events": "^3.1.0",
+    "strip-ansi": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/events": "^3.0.0",
+    "@types/node": "^14.0.5",
+    "typescript": "^3.9.3"
+  }
+}

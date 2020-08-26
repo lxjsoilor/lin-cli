@@ -1,0 +1,31 @@
+{
+  "name": "example",
+  "version": "1.0.18",
+  "description": "> TODO: description",
+  "author": "vive <378898280@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/example.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://git.hucais.com/hucais-frontend/hc-tiger.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@tiger/cli": "^1.0.20-alpha.0",
+    "@tiger/service": "^1.0.7-alpha.0",
+    "@vue/cli-plugin-babel": "^4.4.1",
+    "vue": "^2.6.11",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "gitHead": "24ff254cf1db6c57eedc8075e1f25f78eda8de54"
+}

@@ -1,0 +1,11 @@
+.v-button[data-v-06065e26] {
+  background: chocolate;
+  display: inline-block;
+  color: #fff;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+.v-button[data-v-06065e26]:hover {
+  background: #333333;
+}
+

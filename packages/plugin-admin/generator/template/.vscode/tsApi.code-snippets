@@ -1,0 +1,21 @@
+{
+    "setup": {
+        "prefix": "v-setup",
+        "body": [
+            "<script lang=\"ts\">" ,
+            "import { defineComponent } from '@vue/composition-api';",
+            "import { useStore } from '@/utils/useStore';",
+            "export default defineComponent({",
+            "    props: {},",
+            "    setup() {",
+            "        const store = useStore();",
+            "        return {",
+            "            store,",
+            "        };",
+            "    },",
+            "});",
+            "</script>"
+        ],
+        "description": "ts setup"
+    }
+}
